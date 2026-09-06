@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "source": "PayShield Prototype Reputation Dataset",
+  "source_type": "prototype",
+  "created_at": "2026-09-05T00:00:00Z",
+  "disclaimer": "This is a prototype dataset for local testing. It is not an official national fraud database.",
+  "knownPatterns": [
+    {
+      "id": "rep-test-001",
+      "pattern": "scam.test@upi",
+      "type": "FLAGGED_TEST_PATTERN",
+      "severity": "HIGH",
+      "description": "Known test pattern for security verification"
+    },
+    {
+      "id": "rep-test-002",
+      "pattern": "lottery.winner@paytm",
+      "type": "FLAGGED_TEST_PATTERN",
+      "severity": "HIGH",
+      "description": "Known test scam pattern"
+    },
+    {
+      "id": "rep-test-003",
+      "pattern": "kyc.update@sbi",
+      "type": "FLAGGED_TEST_PATTERN",
+      "severity": "HIGH",
+      "description": "Impersonation test pattern"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "version": "1.0",
+  "source": "PayShield Behavioral Rule Patterns",
+  "source_type": "prototype",
+  "created_at": "2026-09-05T00:00:00Z",
+  "rules": [
+    {
+      "id": "rule-otp-request",
+      "type": "BEHAVIORAL_SCAM",
+      "category": "CONTENT",
+      "name": "OTP / Verification Code Request",
+      "keywords": ["otp", "verification code", "one time password", "one-time password", "pin", "cvv"],
+      "severity": "HIGH",
+      "reliability": "HIGH",
+      "points": 30
+    },
+    {
+      "id": "rule-urgency-threat",
+      "type": "BEHAVIORAL_SCAM",
+      "category": "CONTENT",
+      "name": "Account Suspension / Urgency Threat",
+      "keywords": ["blocked", "suspended", "deactivated", "immediately", "within 24 hours", "urgent action", "expire today", "account closed"],
+      "severity": "HIGH",
+      "reliability": "MEDIUM",
+      "points": 20
+    },
+    {
+      "id": "rule-kyc-pressure",
+      "type": "BEHAVIORAL_SCAM",
+      "category": "CONTENT",
+      "name": "KYC / Account Verification Pressure",
+      "keywords": ["kyc update", "verify kyc", "pancard update", "pan card", "aadhaar update", "electricity bill unpaid"],
+      "severity": "HIGH",
+      "reliability": "HIGH",
+      "points": 25
+    },
+    {
+      "id": "rule-apk-download",
+      "type": "BEHAVIORAL_SCAM",
+      "category": "CONTENT",
+      "name": "Unknown Application / APK Installation Request",
+      "keywords": ["install app", "download apk", "anydesk", "quicksupport", "rustdesk", "teamviewer", "support app"],
+      "severity": "HIGH",
+      "reliability": "HIGH",
+      "points": 30
+    }
+  ]
+}

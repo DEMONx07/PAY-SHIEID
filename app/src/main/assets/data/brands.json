@@ -1,0 +1,57 @@
+{
+  "version": "1.0",
+  "source": "PayShield Prototype Dataset",
+  "source_type": "prototype",
+  "created_at": "2026-09-05T00:00:00Z",
+  "confidence": "HIGH",
+  "brands": [
+    {
+      "id": "brand-001",
+      "name": "State Bank of India",
+      "keywords": ["SBI", "State Bank", "StateBank", "sbi"],
+      "knownVpaDomains": ["sbi", "sbin", "ysbi"]
+    },
+    {
+      "id": "brand-002",
+      "name": "HDFC Bank",
+      "keywords": ["HDFC", "HdfcBank", "hdfc"],
+      "knownVpaDomains": ["hdfcbank", "hdfc"]
+    },
+    {
+      "id": "brand-003",
+      "name": "ICICI Bank",
+      "keywords": ["ICICI", "IciciBank", "icici"],
+      "knownVpaDomains": ["icici", "icicibank"]
+    },
+    {
+      "id": "brand-004",
+      "name": "Amazon",
+      "keywords": ["Amazon", "AmazonPay", "amazon"],
+      "knownVpaDomains": ["amazon", "apl"]
+    },
+    {
+      "id": "brand-005",
+      "name": "Flipkart",
+      "keywords": ["Flipkart", "flipkart"],
+      "knownVpaDomains": ["fk", "flipkart"]
+    },
+    {
+      "id": "brand-006",
+      "name": "PhonePe",
+      "keywords": ["PhonePe", "phonepe"],
+      "knownVpaDomains": ["ybl", "ibl", "axl"]
+    },
+    {
+      "id": "brand-007",
+      "name": "Google Pay",
+      "keywords": ["GooglePay", "GPay", "gpay"],
+      "knownVpaDomains": ["okaxis", "okicici", "oksbi", "okhdfcbank"]
+    },
+    {
+      "id": "brand-008",
+      "name": "Paytm",
+      "keywords": ["Paytm", "paytm"],
+      "knownVpaDomains": ["paytm"]
+    }
+  ]
+}

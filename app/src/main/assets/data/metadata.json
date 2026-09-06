@@ -1,0 +1,8 @@
+{
+  "datasetVersion": "1.0.0-prototype",
+  "datasetName": "PayShield Local Heuristic Dataset",
+  "sourceDescription": "Offline prototype heuristic rules and brand signatures for local analysis",
+  "lastUpdated": "2026-09-05T00:00:00Z",
+  "ruleCount": 12,
+  "offlineVerified": true
+}
