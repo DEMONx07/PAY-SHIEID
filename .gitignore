@@ -1,4 +1,4 @@
-﻿*.iml
+*.iml
 .gradle
 /local.properties
 /.idea/
@@ -42,5 +42,6 @@ build/
 # Keystore files
 *.jks
 *.keystore
-
-/releases/
+# Whitelist releases directory and APKs
+!releases/
+!releases/*.apk

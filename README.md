@@ -2,6 +2,11 @@
 
 **PayShield** is a privacy-first, 100% offline-capable Android cybersecurity application designed to protect users before irreversible financial transactions or security breaches occur. It performs real-time risk assessment on UPI payment QR codes, scam/phishing text messages, and embedded URLs directly on the Android device.
 
+## 📥 Direct APK Download
+
+- **[Download PayShield v1.0.0 APK (Direct)](https://github.com/DEMONx07/PAY-SHIEID/raw/main/releases/PayShield-v1.0.0.apk)**
+- **[View Releases Folder](releases/)**
+
 ```text
                PAYSHIELD ARCHITECTURE AT A GLANCE
                
